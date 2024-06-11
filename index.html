@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Contact form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="form">
+      <h1>Contact Us</h1>
+      <div class="names">
+        <div>
+          <label>First Name *</label>
+
+          <input id="firstname" type="text" name="firstname" />
+        </div>
+        <div>
+          <label>Last Name *</label>
+          <input id="lastname" type="text" name="lastname" /><br />
+        </div>
+      </div>
+
+      <label>Email *</label><br />
+      <input id="email" type="text" name="email" />
+
+      <div class="radio">
+        <label>Query Type*</label><br />
+        <input type="radio" name="query" value="General Enquiry" /> General
+        Enquiry
+        <input type="radio" name="query" value="Support Request" /> Support
+        Request
+      </div>
+      <div id="message">
+        <label>Message*</label><br />
+        <input name="message" type="text" />
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" name="checkbox" value="checkbox" /> I consent to
+        being contacted by the team
+      </div>
+      <button class="sub_bttn">Submit</button>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
