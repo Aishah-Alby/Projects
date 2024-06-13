@@ -1,54 +1,100 @@
-@font-face {
-  font-family: karla;
-  src: url("./assets/fonts/static/Karla-Regular.ttf");
+body {
+  background-color: hsl(180, 100%, 97%);
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-body {
-  background-color: hsl(120, 69%, 81%);
-  font-family: karla;
-}
-.form {
-  background-color: hsl(0, 0%, 100%);
-  width: 500px;
-  height: auto;
-  position: inherit;
-  margin: 50px auto;
-  border-radius: 10px;
-  padding: 25px;
-}
-.form h1 {
-  text-align: left;
-}
-.sub_bttn {
-  width: 100%;
-  height: 40px;
-  background-color: hsl(120, 64%, 17%);
-  border: none;
-  border-radius: 10px;
-  color: hsl(0, 0%, 100%);
-  cursor: pointer;
-}
-.form input[type="text"] {
-  width: 100%;
-  height: 40px;
-  border-radius: 10px;
-  outline: none;
-}
-.error-input {
-  border: 1px solid red;
-}
-.names {
-  display: flex;
-  gap: 15px;
-}
-.form input[type="checkbox"] {
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-.form input[type="radio"] {
-  border-radius: 10px;
-  margin-bottom: 15px;
-  border: 10px;
+.name {
+  font-size: 13px;
+  text-align: right;
   display: inline-flex;
-  gap: 500px;
+  margin-bottom: 0;
+}
+.Verified {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(164, 163, 163);
+}
+
+.quote {
+  text-align: justify;
+  padding-bottom: 0;
+}
+.details {
+  font-size: 13px;
+  text-align: justify;
+  padding-top: 0;
+}
+.container-purple {
+  background-color: hsl(271, 83%, 64%);
+  border-radius: 10px;
+  height: auto;
+  width: 70%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+  position: relative;
+}
+
+.container-grey {
+  background-color: hsl(215, 12%, 27%);
+  border-radius: 10px;
+  height: auto;
+  width: 30%;
+  display: inline-flex;
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+.container-white-b {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  display: inline-flex;
+  height: 92%;
+  width: 100%;
+  padding: 20px;
+}
+
+.container-white-s {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  height: auto;
+  width: 30%;
+  display: inline-flex;
+  padding: 20px;
+}
+
+.container-black {
+  background-color: hsl(0, 0%, 0%);
+  border-radius: 10px;
+  height: auto;
+  width: 70%;
+  display: inline-flex;
+  color: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+.container-gen {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.profile img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 15px;
+  border-color: rgb(182, 134, 227);
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
 }
